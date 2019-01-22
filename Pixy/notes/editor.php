@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form id='editor' action='save.php' method='post' accept-charset='UTF-8'>
+    <h1>Text Editor</h1>
+    <br>
+    <input type='hidden' name='submitted' id='submitted' value='1'/>
+    <div>
+
+        <p>TITLE:</p>
+        <input type='text' name='title' maxlength="50">
+        <br>
+
+        <p>TEXT FIELD:</p>
+        <textarea rows="10" cols="30" type='text' name='content' maxlength="300" required></textarea>
+        <br>
+        <input type="submit" value="SAVE">
+    </div>
+</form>
+<br>
+<br>
+<br>
+
+
+<form id='back' action='index.php' method='post' accept-charset='UTF-8'>
+    <input type="submit" value="BACK">
+</form>
+
+
+</body>
+</html>
+
